@@ -1,0 +1,13 @@
+{
+  "apps": [
+    {
+      "name": "suicidality",
+      "script": "python3 main.py",
+      "instances": 1,
+      "exec_mode": "fork",
+      "autorestart": true,
+      "watch": false,
+      "max_memory_restart": "1G"
+    }
+  ]
+}
